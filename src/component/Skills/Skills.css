@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+.myskills{
+    width: 100%;
+}
+
+.bothSkills{
+    width: 100%;
+    
+}
+.skills_section {
+    width: 100%;
+    height: 80vh;
+    padding: 0px 14%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.skills_head {
+    width: 100%;
+    margin-bottom: 60px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+
+
+.skills_head h2 {
+    font-size: 30px;
+    color: black;
+}
+
+.skills_head h2 span {
+    color: black;
+}
+
+
+
+.skills_main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 15px;
+    grid-column-gap: 70px;
+    background: #484747;
+    padding: 30px;
+    border-radius: 16px;
+
+}
+
+.skills_main .skill_bar .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.skill_bar .info p:nth-child(2) {
+    font-weight: 500;
+}
+
+.skill_bar .bar {
+    width: 100%;
+    height: 15px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+
+.skill_bar .bar span {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color: #9e0fd2;
+    border-radius: 25px;
+}
+
+.skill_bar .bar .html {
+    width: 90%;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.skill_bar .bar .css {
+    width: 85%;
+    animation: css 2s;
+}
+
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 85%;
+    }
+}
+
+.skill_bar .bar .sass {
+    width: 80%;
+    animation: sass 2s;
+}
+
+@keyframes sass {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.skill_bar .bar .js {
+    width: 80%;
+    animation: css 2s;
+}
+
+@keyframes js {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.skill_bar .bar .react {
+    width: 75%;
+    animation: react 2s;
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}
+
+.skill_bar .bar .node {
+    width: 70%;
+    animation: node 2s;
+}
+
+@keyframes node {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 70%;
+    }
+}
+
+.skill_bar .bar .express {
+    width: 65%;
+    animation: express 2s;
+}
+
+@keyframes express {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+.skill_bar .bar .mongo {
+    width: 60%;
+    animation: mongo 2s;
+}
+
+@keyframes mongo {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.professional_Skills {
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.pSkills {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+
+
+}
+
+.profSkills {
+    
+    width: 160px;
+    height: 160px;
+    /* background: cornflowerblue; */
+    position: relative;
+    margin-left: 80px;
+
+}
+.profSkills .pSkillsNames{
+margin-top: 25px;
+/* font-weight: bold; */
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(225, 225, 225, 0.7);
+    padding: 20px;
+}
+
+.inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), inset -4px -4px 6px -1px rgba(225, 225, 225, 0.7),
+        -0.5px -0.5px 0px rgba(225, 225, 225, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+
+#number {
+    font-weight: 600px;
+    color: #555;
+
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+.svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 165;
+    }
+}
+
+.container {
+    width: 500;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .professional_Skills{        
+        height: 120vh;
+       margin-bottom: -130px; 
+       
+    }
+
+    .professional_Skills .skills_head{
+        margin-top: -300px;
+    }
+
+    .pSkills {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 160px;
+    }
+
+    .profSkills {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+
+    
+}

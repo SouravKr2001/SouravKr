@@ -1,0 +1,82 @@
+.experience{
+    width: 100%;
+    margin: 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.experience .left{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    max-width: 350px;
+}
+
+.experience .left p{
+   margin-top: 0px;
+    text-decoration: underline;
+}
+
+.experience .left h6{
+    margin: 1.2rem;
+    color: white;
+    margin-top: 0px;
+}
+
+.experience .right{
+    max-width: 350px;
+    margin: 30px;
+    /* border-radius: 15px; */
+    /* background-color: #555554; */
+}
+
+.experience .right .img-container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+        
+}
+
+/* .right .img-stack{
+    background-color: white;} */
+
+.experience .right img{
+    max-width: 90%;
+    border: 1px solid #333;
+    background-color: white;
+    padding: 15px;
+    
+    
+
+}
+
+
+.experience .right .top{
+    grid-column: 1/span 10;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+    /* opacity: 0.6; */
+}
+
+.experience .right .bottom{
+    grid-column: 3/-1;
+    grid-row: 1;
+    z-index: 5;
+    opacity: 0.9;
+    filter: blur(8px);
+  -webkit-filter: blur(1px);
+}
+
+.experience .right:hover {
+    transform: scale(1.1);
+    background-color: rgb(32, 32, 32);
+    border-radius: 50px;
+    
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
