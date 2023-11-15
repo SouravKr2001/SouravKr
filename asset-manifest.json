@@ -1,27 +1,40 @@
 {
   "files": {
-    "main.css": "/SouravKr/static/css/main.122c3464.css",
-    "main.js": "/SouravKr/static/js/main.4cd626b8.js",
+    "main.css": "/SouravKr/static/css/main.f5031941.css",
+    "main.js": "/SouravKr/static/js/main.eed201ab.js",
     "static/js/787.1ed0c42c.chunk.js": "/SouravKr/static/js/787.1ed0c42c.chunk.js",
     "static/media/wallpaper.jpg": "/SouravKr/static/media/wallpaper.d12d0fbd6e78c65d5577.jpg",
-    "static/media/xyz.jpg": "/SouravKr/static/media/xyz.b2faeda50bc0ba8d5fee.jpg",
-    "static/media/sK.pdf": "/SouravKr/static/media/sK.7c2d9b733a304fa44861.pdf",
+    "static/media/GIETAchievement2.jpg": "/SouravKr/static/media/GIETAchievement2.7ad48d423b0c04aec063.jpg",
+    "static/media/hrcCertificate.jpeg": "/SouravKr/static/media/hrcCertificate.cf8544ff55f39e86917e.jpeg",
+    "static/media/ResumeImg.jpg": "/SouravKr/static/media/ResumeImg.c6398da49da8274591dc.jpg",
+    "static/media/Resume_Sourav Kumar.pdf": "/SouravKr/static/media/Resume_Sourav Kumar.35dc401df15684acbaf6.pdf",
+    "static/media/Ecommerce.png": "/SouravKr/static/media/Ecommerce.d2c6e3b5e9fb2476bc2f.png",
     "static/media/UDC.jpg": "/SouravKr/static/media/UDC.4f15c1ebbdfb8d20ec91.jpg",
+    "static/media/GIETAchievement.JPG": "/SouravKr/static/media/GIETAchievement.34584bf21d5c5800e0c4.JPG",
     "static/media/S1.jpg": "/SouravKr/static/media/S1.cc677658c0d354d566e5.jpg",
     "static/media/HRC.png": "/SouravKr/static/media/HRC.51288368387199ca1c0c.png",
     "static/media/HD.jpg": "/SouravKr/static/media/HD.14e3ffedb20b0cff3f07.jpg",
+    "static/media/Sharp.jpg": "/SouravKr/static/media/Sharp.b9b0853f4672c7f2216d.jpg",
+    "static/media/WebChat.png": "/SouravKr/static/media/WebChat.af2c7734642273d35353.png",
+    "static/media/mern.png": "/SouravKr/static/media/mern.4dbdeac75cac2cc20b7d.png",
+    "static/media/java.png": "/SouravKr/static/media/java.dc316831d0ce10e9a641.png",
+    "static/media/rdbms.jpg": "/SouravKr/static/media/rdbms.1cafb7ad85eea33d84d0.jpg",
     "static/media/tata.png": "/SouravKr/static/media/tata.2ee49a9e8b958346539a.png",
     "static/media/tsf.png": "/SouravKr/static/media/tsf.cbae0e8487eec2d12792.png",
+    "static/media/android.png": "/SouravKr/static/media/android.ea3b06bd0484e1747022.png",
     "static/media/hrcLogo.png": "/SouravKr/static/media/hrcLogo.6934fdc01df2a2d98281.png",
     "static/media/lgm.jpg": "/SouravKr/static/media/lgm.e9c8286efcac002b79cd.jpg",
     "static/media/lagozon.png": "/SouravKr/static/media/lagozon.e0abefeb7e9e33728c0d.png",
+    "static/media/flutter.webp": "/SouravKr/static/media/flutter.cdd76c817d7d381e7cc5.webp",
+    "static/media/python.svg": "/SouravKr/static/media/python.13d5b230d0e20e4775ddab47ba00602b.svg",
+    "static/media/sql.webp": "/SouravKr/static/media/sql.5ce9b959a618bb58fd64.webp",
     "index.html": "/SouravKr/index.html",
-    "main.122c3464.css.map": "/SouravKr/static/css/main.122c3464.css.map",
-    "main.4cd626b8.js.map": "/SouravKr/static/js/main.4cd626b8.js.map",
+    "main.f5031941.css.map": "/SouravKr/static/css/main.f5031941.css.map",
+    "main.eed201ab.js.map": "/SouravKr/static/js/main.eed201ab.js.map",
     "787.1ed0c42c.chunk.js.map": "/SouravKr/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.122c3464.css",
-    "static/js/main.4cd626b8.js"
+    "static/css/main.f5031941.css",
+    "static/js/main.eed201ab.js"
   ]
 }
