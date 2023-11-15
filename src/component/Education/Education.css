@@ -32,7 +32,7 @@
   margin-inline: auto;
 }
 
-/* line */
+/* line */ 
 .myExperience ul::before {
   content: "";
   grid-column: 1;
@@ -60,64 +60,13 @@
 }
 
 .myExperience li:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);  
+  transition: transform 0.3s, box-shadow 0.3s;
   /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
 
-date
-/* .myExperience ul li .degreedate {
-  --dateH: 3rem;
-  height: var(--dateH);
-  margin-inline: calc(var(--inlineP) * -1);
 
-  text-align: center;
-  background-color: var(backgroundColor);
-
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 700;
-
-  display: grid;
-  place-content: center;
-  position: relative;
-
-  border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
-} */
-
-
-/* date flap */
-/* .myExperience ul li .degreedate::before {
-  content: "";
-  width: var(--inlineP);
-  aspect-ratio: 1;
-  background: var(backgroundColor);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
-  position: absolute;
-  top: 100%;
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  right: 0;
-} */
-
-
-
-/* circle */
-/* .myExperience ul li .degreedate::after {
-  content: "";
-  position: absolute;
-  width: 2rem;
-  aspect-ratio: 1;
-  background: var(--bgColor);
-  border: 0.5rem solid var(backgroundColor);
-  border-radius: 50%;
-  top: 50%;
-
-  transform: translate(50%, -50%);
-  right: calc(100% + var(--col-gap) + var(--line-w) / 2);
-} */
-
-
-*/
 
 /* title descr */
 .myExperience ul li .degreetitle,

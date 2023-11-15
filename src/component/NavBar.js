@@ -21,13 +21,13 @@ const NavBar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <Link to="/">
+      <Link to="/SouravKr">
         <h1>Sourav Kumar</h1>
       </Link>
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-            <Link to="/">Home</Link>
+            <Link to="/SouravKr">Home</Link>
         </li>
         <li>
             <Link to="/project">Project</Link>

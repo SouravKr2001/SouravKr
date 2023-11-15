@@ -1,8 +1,6 @@
 import "./WorkCard.css";
 
 import React from "react";
-import pro1 from "../assets/wallpaper.jpg";
-import { NavLink } from "react-router-dom";
 
 import WorkCard from "./WorkCard";
 import WorkCardData  from "./WorkCardData";

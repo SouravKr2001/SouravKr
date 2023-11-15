@@ -16,6 +16,7 @@ function Experience() {
       <HeroImg2
         heading="Experience."
         text="My years of experience have prepared me to undetake the next challenge."
+        backgroundImage="https://previews.123rf.com/images/medrooky/medrooky2103/medrooky210300113/166652009-step-by-step-to-achieve-a-goal-ladder-targeting-and-reaching-a-target-symbol-in-blue-background.jpg"
       />
 
       <div className="experience">

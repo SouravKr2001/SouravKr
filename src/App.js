@@ -4,21 +4,21 @@ import Home from "./routes/Home";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
-import {BrowserRouter,Route,Routes} from "react-router-dom";
+import {Route,Routes} from "react-router-dom";
 import HDPred from "./component/ProjectOverview/HDPred";
 import UDCon from "./component/ProjectOverview/UDCon";
 import InvoiceManagement from "./component/ProjectOverview/InvoiceManagement";
 import Education from "./component/Education/Education";
 import Skills from "./component/Skills/Skills";
 import Experience from "./component/Experience/Experience";
+import Achievenments from "./component/Achievenments/Achievenments";
 
 
 function App() {
   return (
     <>
-    {/* <BrowserRouter basename="/c"> */}
       <Routes>
-        <Route exact path="/" element ={<Home/>} />
+        <Route exact path="/SouravKr" element ={<Home/>} />
         <Route path="/project" element ={<Project/>} />
         <Route path="/about" element ={<About/>} />
         <Route path="/contact" element ={<Contact/>} />
@@ -28,9 +28,9 @@ function App() {
         <Route path="/education" element={<Education/>}/>
         <Route path="/skills" element={<Skills/>}/>
         <Route path="/experience" element={<Experience/>}/>
+        <Route path="/achievenments" element={<Achievenments/>}/>
 
       </Routes>
-    {/* </BrowserRouter> */}
     </>
   );
 }

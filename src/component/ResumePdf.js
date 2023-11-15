@@ -1,12 +1,8 @@
 import React from "react";
-import { Document, Page } from "react-pdf/dist/esm/entry.webpack";
-import pdf from "../assets/sK.pdf";
-import ResumeImg from "../assets/xyz.jpg";
-import { Link } from "react-router-dom";
+import pdf from "../assets/Resume_Sourav Kumar.pdf";
+import ResumeImg from "../assets/ResumeImg.jpg";
 import Button from '@mui/material/Button';
 import DownloadIcon from '@mui/icons-material/Download';
-import SendIcon from '@mui/icons-material/Send';
-// import ReactPdf from '@react-pdf/renderer';
 
 import "./ResumePdf.css";
 

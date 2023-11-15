@@ -59,7 +59,7 @@ function Experience() {
   return (
     <div>
       <NavBar />
-      <HeroImg2 heading="MY Education." text="I am developer by interest" />
+      <HeroImg2 heading="MY Education." text="I am developer by interest" backgroundImage="https://wallpapers.com/images/featured/education-d4w62mny8rdusxe0.jpg" />
       <div className="myExperience">
         <ul>
           <li>
@@ -67,7 +67,7 @@ function Experience() {
               style={{ backgroundColor: "#FFBF00" }}
               class="degreedate"
             >
-              2019 - 2023
+              May 2019 – June 2023
             </Container>
             <div class="degreetitle">
               Graduation (B-Tech in Computer Science and Engineering)
@@ -84,11 +84,11 @@ function Experience() {
               style={{ backgroundColor: "#40E0D0" }}
               class="degreedate"
             >
-              2019 - 2023
+              May 2017 – May 2019
             </Container>
-            <div class="degreetitle">Higher Secondary School Certificate</div>
+            <div class="degreetitle">Higher Secondary School Certificate (Computer Science)</div>
             <div class="degreeContent">
-              Computer Science
+            Valley View School, Jamshedpur  (CBSE)
             </div>
           </li>
           <li>
@@ -96,11 +96,11 @@ function Experience() {
               style={{ backgroundColor: "#CCCCFF" }}
               class="degreedate"
             >
-              2019 - 2023
+              May 2016 – May 2017
             </Container>
             <div class="degreetitle">Secondary School Certificate</div>
             <div class="degreeContent">
-              
+            Kerala Public School, Jamshedpur (CBSE)
             </div>
           </li>
         </ul>

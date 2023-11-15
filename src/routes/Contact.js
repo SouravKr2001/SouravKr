@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <NavBar/>
-      <HeroImg2 heading="CONTACT." text="Lets have a chat"/>
+      <HeroImg2 heading="CONTACT." text="Lets have a chat" backgroundImage="https://www.callbell.eu/wp-content/uploads/2021/01/SaaS-Call-Center-Software-featured.png"/>
       <Footer/>
     </div>
   )
